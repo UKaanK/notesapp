@@ -1,16 +1,12 @@
-# notesapp
+Not Uygulaması:
+Teknoloji: Bloc Yapısı, Isar Database
 
-A new Flutter project.
+Açıklama: Not Uygulaması, kullanıcıların kişisel notlarını organize etmelerine ve düzenlemelerine olanak sağlayan bir mobil uygulamadır. Kullanıcılar notlarını oluşturabilir, düzenleyebilir ve silebilir, ayrıca verilerini güvenli bir şekilde saklayabilirler. Uygulama, aşağıdaki ana özellikleri içerir:
 
-## Getting Started
+Hedef: Not Uygulaması, kullanıcılara günlük yaşamlarında kolaylıkla not alabilecekleri, işlerini planlayabilecekleri ve fikirlerini organize edebilecekleri bir platform sunmayı amaçlar. Kullanıcılar, kişisel veya profesyonel amaçlı notlarını dijital ortamda güvenle saklayabilirler.
 
-This project is a starting point for a Flutter application.
+Bloc Durum Yönetimi: Uygulamanın durum yönetimi için Bloc yapısı kullanılmıştır. Bu yapı, uygulama içindeki veri akışını ve durumu yönetmek için güçlü bir çözüm sunar. Kullanıcıların not oluşturma, düzenleme ve silme işlemleri sorunsuz bir şekilde yönetilir. Bloc, kullanıcı arayüzünün her zaman güncel olmasını ve veri işleme sürecinin optimize edilmesini sağlar.
 
-A few resources to get you started if this is your first Flutter project:
+Isar Database: Uygulamada, verilerin kalıcı olarak saklanması için Isar veritabanı kullanılmıştır. Isar, hızlı ve verimli bir NoSQL veritabanıdır ve mobil cihazlar için optimize edilmiştir. Kullanıcıların notları yerel olarak saklanır ve internet bağlantısı olmadan da notlara erişim imkanı sunar. Notların güvenli bir şekilde saklanması ve hızlı bir şekilde geri çağrılması, Isar’ın avantajlarıyla sağlanmıştır.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Not Güncelleme ve Silme: Kullanıcılar, mevcut notlarını düzenleyebilir ve güncelleyebilirler. Ayrıca, ihtiyaç duyulmadığında notları silme imkanı da sunulmaktadır. Bu sayede uygulama, kullanıcıların notlarını sürekli güncel tutmalarını sağlar.
